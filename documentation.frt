@@ -36,6 +36,11 @@ Exits Forthress
 Prints a null-terminated string.
 " doc-word
 
+' printc g"
+( str cnt -- )
+Prints a certain amount of characters from string.
+" doc-word
+
 ' count g"
 ( str -- len )
 Accepts a null-terminated string, calculates its length.
