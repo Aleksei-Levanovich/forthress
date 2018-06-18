@@ -297,6 +297,6 @@ include managed-string.frt
 ." Forthress -- a tiny Forth from scratch > (c) Igor Zhirkov 2017-2018 " cr
 
 include fib.frt
-
+include file.frt
 include native.frt
 
